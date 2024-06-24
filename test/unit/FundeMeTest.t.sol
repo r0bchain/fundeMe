@@ -7,7 +7,7 @@ import {FundMe} from "../../src/FundMe.sol";
 import {HelperConfig, CodeConstants} from "../../script/HelperConfig.s.sol";
 import {Test, console} from "forge-std/Test.sol";
 import {StdCheats} from "forge-std/StdCheats.sol";
-import {Base_Test} from "../test/Base_Test.t.sol";
+import {Base_Test} from "../Basteste_Test.t.sol";
 import {MockV3Aggregator} from "../mocks/MockV3Aggregator.sol";
 
 contract FundMeTest is Base_Test, CodeConstants, StdCheats, Test {
